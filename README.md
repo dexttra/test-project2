@@ -3,6 +3,7 @@
 Предположим, у нас есть две таблицы:
 1. Products с полями ProductID и ProductName.
 2. Categories с полями CategoryID и CategoryName.
+
 Промежуточная таблица ProductCategories, которая связывает продукты с категориями, с полями ProductID и CategoryID
 
 Запрос: 
