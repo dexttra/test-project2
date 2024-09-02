@@ -6,7 +6,7 @@
 Промежуточная таблица ProductCategories, которая связывает продукты с категориями, с полями ProductID и CategoryID
 
 Запрос: 
-
+```
 SELECT 
     p.ProductName, 
     c.CategoryName
@@ -18,3 +18,4 @@ LEFT JOIN
     Categories c ON pc.CategoryID = c.CategoryID
 ORDER BY 
     p.ProductName, c.CategoryName;
+```
